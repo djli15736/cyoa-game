@@ -1,0 +1,14 @@
+[
+    {
+        "ID": 1,
+        "Name": "Return by Death", 
+        "Description": "TBD",
+        "Cost": 20
+    },
+    {
+        "ID": 2,
+        "Name": "Great Sage",
+        "Description": "TBD",
+        "Cost": 15
+    }
+]
