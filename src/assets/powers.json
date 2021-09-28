@@ -3,12 +3,54 @@
         "ID": 1,
         "Name": "Return by Death", 
         "Description": "TBD",
-        "Cost": 20
+        "Cost": 25
     },
     {
         "ID": 2,
         "Name": "Great Sage",
         "Description": "TBD",
-        "Cost": 15
+        "Cost": 20
+    },
+    {
+        "ID": 3,
+        "Name": "Black Hole", 
+        "Description": "TBD",
+        "Cost": 10
+    },
+    {
+        "ID": 4,
+        "Name": "Guild Leader",
+        "Description": "TBD",
+        "Cost": 5
+    },
+    {
+        "ID": 5,
+        "Name": "Predator",
+        "Description": "TBD",
+        "Cost" : 20
+    },
+    {
+        "ID": 6,
+        "Name": "Placeholder",
+        "Description": "TBD",
+        "Cost": 10
+    },
+    {
+        "ID": 7,
+        "Name": "Placeholder",
+        "Description": "TBD",
+        "Cost": 10
+    },
+    {
+        "ID": 8,
+        "Name": "Placeholder",
+        "Description": "TBD",
+        "Cost": 10
+    },
+    {
+        "ID": 9,
+        "Name": "Placeholder",
+        "Description": "TBD",
+        "Cost": 10
     }
 ]
