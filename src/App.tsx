@@ -13,33 +13,37 @@ function App(): JSX.Element {
   const [points, setPoints] = useState(100); 
 
   return (
+
     <Container className="App">
       <Col>
       <BootstrapCard>
             <BootstrapCard.Body>
                 <BootstrapCard.Title>Introduction</BootstrapCard.Title>
-                <BootstrapCard.Text>Placeholder</BootstrapCard.Text>
+                <BootstrapCard.Text>So yeah, you got hit by a truck and died. Fortunately for you, I'm really bored and have been looking to watch a new Isekai!
+                  Oh, you don't know what that is? I'll be sending you off to another world with some superpowers and will be watching your adventures. I can't make you too powerful 
+                  though, or it won't be any fun. That's why I'm giving you 100 points that you can use to pick your own powers. Good luck!
+                </BootstrapCard.Text>
             </BootstrapCard.Body>
       </BootstrapCard>
       </Col>
       <Col>
-      <PointBox points={points}></PointBox>
+      <PointBox></PointBox>
       </Col>
       <Row>
       <Col>
-      <PowerViewer power={POWERS[0]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[1]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[2]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[0]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[1]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[2]} points={points} setPoints={setPoints}></PowerViewer>
       </Col>
       <Col>
-      <PowerViewer power={POWERS[3]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[4]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[5]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[3]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[4]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[5]} points={points} setPoints={setPoints}></PowerViewer>
       </Col>
       <Col>
-      <PowerViewer power={POWERS[6]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[7]} points={points}></PowerViewer>
-      <PowerViewer power={POWERS[8]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[6]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[7]} points={points} setPoints={setPoints}></PowerViewer>
+      <PowerViewer power={POWERS[8]} points={points} setPoints={setPoints}></PowerViewer>
       </Col>
       </Row>
     </Container>

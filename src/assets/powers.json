@@ -2,54 +2,54 @@
     {
         "ID": 1,
         "Name": "Return by Death", 
-        "Description": "TBD",
-        "Cost": 25
+        "Description": "If you die, your consciousness is sent back in time to a 'save point' before the cause of your death. You don't choose when the save point is, but you won't be trapped in an infinite death loop.",
+        "Cost": 40
     },
     {
         "ID": 2,
         "Name": "Great Sage",
         "Description": "TBD",
-        "Cost": 20
+        "Cost": 30
     },
     {
         "ID": 3,
-        "Name": "Black Hole", 
+        "Name": "Pandora's Actor", 
         "Description": "TBD",
-        "Cost": 10
+        "Cost": 20
     },
     {
         "ID": 4,
-        "Name": "Guild Leader",
+        "Name": "Predator",
         "Description": "TBD",
-        "Cost": 5
+        "Cost": 25
     },
     {
         "ID": 5,
-        "Name": "Predator",
+        "Name": "Tome of Truth",
         "Description": "TBD",
         "Cost" : 20
     },
     {
         "ID": 6,
-        "Name": "Placeholder",
+        "Name": "Legendary Shield",
         "Description": "TBD",
         "Cost": 10
     },
     {
         "ID": 7,
-        "Name": "Placeholder",
+        "Name": "Being X",
         "Description": "TBD",
         "Cost": 10
     },
     {
         "ID": 8,
-        "Name": "Placeholder",
+        "Name": "Useless Goddess",
         "Description": "TBD",
-        "Cost": 10
+        "Cost": 15
     },
     {
         "ID": 9,
-        "Name": "Placeholder",
+        "Name": "Aschente",
         "Description": "TBD",
         "Cost": 10
     }
