@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cyoa-game/static/css/main.a617e044.chunk.css",
+    "main.js": "/cyoa-game/static/js/main.d6e582c1.chunk.js",
+    "main.js.map": "/cyoa-game/static/js/main.d6e582c1.chunk.js.map",
+    "runtime-main.js": "/cyoa-game/static/js/runtime-main.fac070a8.js",
+    "runtime-main.js.map": "/cyoa-game/static/js/runtime-main.fac070a8.js.map",
+    "static/css/2.f2512455.chunk.css": "/cyoa-game/static/css/2.f2512455.chunk.css",
+    "static/js/2.66fc17f8.chunk.js": "/cyoa-game/static/js/2.66fc17f8.chunk.js",
+    "static/js/2.66fc17f8.chunk.js.map": "/cyoa-game/static/js/2.66fc17f8.chunk.js.map",
+    "static/js/3.6bc9abcd.chunk.js": "/cyoa-game/static/js/3.6bc9abcd.chunk.js",
+    "static/js/3.6bc9abcd.chunk.js.map": "/cyoa-game/static/js/3.6bc9abcd.chunk.js.map",
+    "index.html": "/cyoa-game/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/cyoa-game/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/cyoa-game/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.66fc17f8.chunk.js.LICENSE.txt": "/cyoa-game/static/js/2.66fc17f8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fac070a8.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.66fc17f8.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.d6e582c1.chunk.js"
+  ]
+}
