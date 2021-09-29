@@ -3,12 +3,12 @@ import { Button, Card as BootstrapCard, Col } from 'react-bootstrap';
 import { Power } from '../interfaces/power';
 
 
-export function PointBox(): JSX.Element {
+export function PointBox({points}: {points: number}): JSX.Element {
 
     return <Col>
     <BootstrapCard>
             <BootstrapCard.Body>
-                <BootstrapCard.Title>Points Remaining:</BootstrapCard.Title>
+                <BootstrapCard.Title id="point-box">Points Remaining: </BootstrapCard.Title> {points}
             </BootstrapCard.Body>
         </BootstrapCard>
     </Col>

@@ -10,7 +10,8 @@ import { PointBox } from './components/PointBox';
 
 
 function App(): JSX.Element {
- 
+  const [points, setPoints] = useState(100); 
+
   return (
     <Container className="App">
       <Col>
@@ -22,23 +23,23 @@ function App(): JSX.Element {
       </BootstrapCard>
       </Col>
       <Col>
-      <PointBox></PointBox>
+      <PointBox points={points}></PointBox>
       </Col>
       <Row>
       <Col>
-      <PowerViewer power={POWERS[0]}></PowerViewer>
-      <PowerViewer power={POWERS[1]}></PowerViewer>
-      <PowerViewer power={POWERS[2]}></PowerViewer>
+      <PowerViewer power={POWERS[0]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[1]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[2]} points={points}></PowerViewer>
       </Col>
       <Col>
-      <PowerViewer power={POWERS[3]}></PowerViewer>
-      <PowerViewer power={POWERS[4]}></PowerViewer>
-      <PowerViewer power={POWERS[5]}></PowerViewer>
+      <PowerViewer power={POWERS[3]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[4]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[5]} points={points}></PowerViewer>
       </Col>
       <Col>
-      <PowerViewer power={POWERS[6]}></PowerViewer>
-      <PowerViewer power={POWERS[7]}></PowerViewer>
-      <PowerViewer power={POWERS[8]}></PowerViewer>
+      <PowerViewer power={POWERS[6]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[7]} points={points}></PowerViewer>
+      <PowerViewer power={POWERS[8]} points={points}></PowerViewer>
       </Col>
       </Row>
     </Container>

@@ -3,16 +3,12 @@ import { Button, Card as BootstrapCard, Col } from 'react-bootstrap';
 import { Power } from '../interfaces/power';
 
 
-export function PowerViewer({power}: {power: Power}): JSX.Element {
-    const [points, setPoints] = useState(100); 
-
-    function subtractPoints(cost: number){
-        setPoints(points-cost);
-    }
+export function PowerViewer({power, points}: {power: Power, points: number}): JSX.Element {
 
     function selectPower(){
-
-    }
+        let displayPoints = document.getElementById('point-box');
+        displayPoints!.innerHTML = "Points Remaining: " + (points-power.Cost);
+     }
 
     return <Col>
     <BootstrapCard>
@@ -24,7 +20,7 @@ export function PowerViewer({power}: {power: Power}): JSX.Element {
                 <BootstrapCard.Text>
                     <strong>Cost:</strong> {power.Cost}
                 </BootstrapCard.Text>
-                <Button>Select</Button> 
+                <Button onClick={selectPower}>Select</Button> 
             </BootstrapCard.Body>
         </BootstrapCard>
     </Col>
