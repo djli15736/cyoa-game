@@ -3,16 +3,27 @@ import './App.css';
 import POWERS from './assets/powers.json';
 import { PowerViewer } from './components/PowerViewer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Card as BootstrapCard } from 'react-bootstrap';
 import { Power } from './interfaces/power';
+import { PointBox } from './components/PointBox';
 
 
 
 function App(): JSX.Element {
-  const [points, setPoints] = useState(100); 
  
   return (
     <Container className="App">
+      <Col>
+      <BootstrapCard>
+            <BootstrapCard.Body>
+                <BootstrapCard.Title>Introduction</BootstrapCard.Title>
+                <BootstrapCard.Text>Placeholder</BootstrapCard.Text>
+            </BootstrapCard.Body>
+      </BootstrapCard>
+      </Col>
+      <Col>
+      <PointBox></PointBox>
+      </Col>
       <Row>
       <Col>
       <PowerViewer power={POWERS[0]}></PowerViewer>
