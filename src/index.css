@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 75px;
 }
 
 code {
@@ -18,4 +19,11 @@ code {
 
 .power-card {
   background-color: white !important;
+}
+
+.point-box {
+  position: fixed !important;
+  bottom: 0;
+  width: 72.2%;
+  height: 9%;
 }

@@ -26,9 +26,6 @@ function App(): JSX.Element {
             </BootstrapCard.Body>
       </BootstrapCard>
       </Col>
-      <Col>
-      <PointBox points={points}></PointBox>
-      </Col>
       <Row>
       <CardGroup>
       <PowerViewer power={POWERS[0]} points={points} setPoints={setPoints}></PowerViewer>
@@ -46,7 +43,8 @@ function App(): JSX.Element {
       <PowerViewer power={POWERS[8]} points={points} setPoints={setPoints}></PowerViewer>
       </CardGroup>
       </Row>
-    </Container>
+      <PointBox points={points}></PointBox>
+      </Container>
   );
 }
 

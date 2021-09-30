@@ -5,11 +5,9 @@ import { Power } from '../interfaces/power';
 
 export function PointBox({points}: {points: number}): JSX.Element {
 
-    return <Col>
-    <BootstrapCard>
+    return <BootstrapCard className="point-box">
             <BootstrapCard.Body>
-                <BootstrapCard.Title id="point-box">Points Remaining: </BootstrapCard.Title> {points}
+                <BootstrapCard.Text id="point-box"><strong>Points Remaining: </strong></BootstrapCard.Text> {points}
             </BootstrapCard.Body>
         </BootstrapCard>
-    </Col>
 }
