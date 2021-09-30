@@ -12,11 +12,10 @@ export function PowerViewer({power, points, setPoints}: {power: Power, points: n
     function selectPower(){
         let displayPoints = document.getElementById('point-box');
         subtractPoints();
-        displayPoints!.innerHTML = "Points Remaining: " + points;
      }
 
-    return <Col>
-    <BootstrapCard>
+    return  <Col>
+    <BootstrapCard className = "power-card">
             <BootstrapCard.Body>
                 <BootstrapCard.Title>{power.Name}</BootstrapCard.Title>
                 <BootstrapCard.Text>

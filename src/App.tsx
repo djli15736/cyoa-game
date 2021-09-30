@@ -10,7 +10,7 @@ import { PointBox } from './components/PointBox';
 
 
 function App(): JSX.Element {
-  const [points, setPoints] = useState(100); 
+  const [points, setPoints] = useState(70); 
 
   return (
 
@@ -21,13 +21,13 @@ function App(): JSX.Element {
                 <BootstrapCard.Title>Introduction</BootstrapCard.Title>
                 <BootstrapCard.Text>So yeah, you got hit by a truck and died. Fortunately for you, I'm really bored and have been looking to watch a new Isekai!
                   Oh, you don't know what that is? I'll be sending you off to another world with some superpowers and will be watching your adventures. I can't make you too powerful 
-                  though, or it won't be any fun. That's why I'm giving you 100 points that you can use to pick your own powers. Good luck!
+                  though, or it won't be any fun. That's why I'm giving you 70 points that you can use to pick your own powers. Good luck!
                 </BootstrapCard.Text>
             </BootstrapCard.Body>
       </BootstrapCard>
       </Col>
       <Col>
-      <PointBox></PointBox>
+      <PointBox points={points}></PointBox>
       </Col>
       <Row>
       <Col>
