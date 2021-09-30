@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cyoa-game/static/css/main.0f351a21.chunk.css",
-    "main.js": "/cyoa-game/static/js/main.cf2a61c0.chunk.js",
-    "main.js.map": "/cyoa-game/static/js/main.cf2a61c0.chunk.js.map",
+    "main.css": "/cyoa-game/static/css/main.91582491.chunk.css",
+    "main.js": "/cyoa-game/static/js/main.ed0364f9.chunk.js",
+    "main.js.map": "/cyoa-game/static/js/main.ed0364f9.chunk.js.map",
     "runtime-main.js": "/cyoa-game/static/js/runtime-main.7261f033.js",
     "runtime-main.js.map": "/cyoa-game/static/js/runtime-main.7261f033.js.map",
     "static/css/2.f2512455.chunk.css": "/cyoa-game/static/css/2.f2512455.chunk.css",
-    "static/js/2.4e769f3f.chunk.js": "/cyoa-game/static/js/2.4e769f3f.chunk.js",
-    "static/js/2.4e769f3f.chunk.js.map": "/cyoa-game/static/js/2.4e769f3f.chunk.js.map",
+    "static/js/2.cfd57b4d.chunk.js": "/cyoa-game/static/js/2.cfd57b4d.chunk.js",
+    "static/js/2.cfd57b4d.chunk.js.map": "/cyoa-game/static/js/2.cfd57b4d.chunk.js.map",
     "static/js/3.4334797e.chunk.js": "/cyoa-game/static/js/3.4334797e.chunk.js",
     "static/js/3.4334797e.chunk.js.map": "/cyoa-game/static/js/3.4334797e.chunk.js.map",
     "index.html": "/cyoa-game/index.html",
     "static/css/2.f2512455.chunk.css.map": "/cyoa-game/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.0f351a21.chunk.css.map": "/cyoa-game/static/css/main.0f351a21.chunk.css.map",
-    "static/js/2.4e769f3f.chunk.js.LICENSE.txt": "/cyoa-game/static/js/2.4e769f3f.chunk.js.LICENSE.txt"
+    "static/css/main.91582491.chunk.css.map": "/cyoa-game/static/css/main.91582491.chunk.css.map",
+    "static/js/2.cfd57b4d.chunk.js.LICENSE.txt": "/cyoa-game/static/js/2.cfd57b4d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7261f033.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.4e769f3f.chunk.js",
-    "static/css/main.0f351a21.chunk.css",
-    "static/js/main.cf2a61c0.chunk.js"
+    "static/js/2.cfd57b4d.chunk.js",
+    "static/css/main.91582491.chunk.css",
+    "static/js/main.ed0364f9.chunk.js"
   ]
 }
