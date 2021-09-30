@@ -3,7 +3,7 @@ import './App.css';
 import POWERS from './assets/powers.json';
 import { PowerViewer } from './components/PowerViewer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row, Card as BootstrapCard } from 'react-bootstrap';
+import { Col, Container, Row, Card as BootstrapCard, CardGroup } from 'react-bootstrap';
 import { Power } from './interfaces/power';
 import { PointBox } from './components/PointBox';
 
@@ -30,21 +30,21 @@ function App(): JSX.Element {
       <PointBox points={points}></PointBox>
       </Col>
       <Row>
-      <Col>
+      <CardGroup>
       <PowerViewer power={POWERS[0]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[1]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[2]} points={points} setPoints={setPoints}></PowerViewer>
-      </Col>
-      <Col>
+      </CardGroup>
+      <CardGroup>
       <PowerViewer power={POWERS[3]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[4]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[5]} points={points} setPoints={setPoints}></PowerViewer>
-      </Col>
-      <Col>
+      </CardGroup>
+      <CardGroup>
       <PowerViewer power={POWERS[6]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[7]} points={points} setPoints={setPoints}></PowerViewer>
       <PowerViewer power={POWERS[8]} points={points} setPoints={setPoints}></PowerViewer>
-      </Col>
+      </CardGroup>
       </Row>
     </Container>
   );

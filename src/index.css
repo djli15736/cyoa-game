@@ -12,3 +12,10 @@ code {
     monospace;
 }
 
+.power-card-clicked {
+  background-color: green;
+}
+
+.power-card {
+  background-color: white;
+}

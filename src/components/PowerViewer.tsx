@@ -4,18 +4,17 @@ import { Power } from '../interfaces/power';
 
 
 export function PowerViewer({power, points, setPoints}: {power: Power, points: number, setPoints: (p: number)=>void}): JSX.Element {
+    const[selected, setSelected] = useState<boolean>(false);
     
     const subtractPoints = () => {
         setPoints(points-power.Cost);
     };
 
     function selectPower(){
-        let displayPoints = document.getElementById('point-box');
         subtractPoints();
      }
 
-    return  <Col>
-    <BootstrapCard className = "power-card">
+    return <BootstrapCard className={selected ? "power-card-clicked" : "power-card"}>
             <BootstrapCard.Body>
                 <BootstrapCard.Title>{power.Name}</BootstrapCard.Title>
                 <BootstrapCard.Text>
@@ -24,8 +23,7 @@ export function PowerViewer({power, points, setPoints}: {power: Power, points: n
                 <BootstrapCard.Text>
                     <strong>Cost:</strong> {power.Cost}
                 </BootstrapCard.Text>
-                <Button onClick={selectPower}>Select</Button> 
+                <Button onClick={()=>{selectPower(); setSelected(!selected)}}>Select</Button> 
             </BootstrapCard.Body>
         </BootstrapCard>
-    </Col>
 }
