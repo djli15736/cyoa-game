@@ -16,7 +16,7 @@ function App(): JSX.Element {
 
     <Container className="App">
       <Col>
-      <BootstrapCard>
+      <BootstrapCard className="card border-dark bg-info">
             <BootstrapCard.Body>
                 <BootstrapCard.Title>Introduction</BootstrapCard.Title>
                 <BootstrapCard.Text>So yeah, you got hit by a truck and died. Fortunately for you, I'm really bored and have been looking to watch a new Isekai!

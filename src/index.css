@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: 75px;
+  background-color: navy !important;
 }
 
 code {
@@ -15,6 +16,7 @@ code {
 
 .power-card-clicked {
   background-color: lightgreen !important;
+  
 }
 
 .power-card {

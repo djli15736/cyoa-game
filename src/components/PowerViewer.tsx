@@ -23,7 +23,7 @@ export function PowerViewer({power, points, setPoints}: {power: Power, points: n
         }
      }
 
-    return <BootstrapCard className={selected ? "power-card-clicked" : "power-card"}>
+    return <BootstrapCard className={selected ? "power-card-clicked border-dark" : "power-card border-dark"}>
             <BootstrapCard.Body>
                 <BootstrapCard.Title>{power.Name}</BootstrapCard.Title>
                 <BootstrapCard.Text>
