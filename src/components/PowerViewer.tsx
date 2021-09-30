@@ -10,8 +10,17 @@ export function PowerViewer({power, points, setPoints}: {power: Power, points: n
         setPoints(points-power.Cost);
     };
 
+    const addPoints = () => {
+        setPoints(points+power.Cost);
+    };
+
     function selectPower(){
-        subtractPoints();
+        if(selected) {
+            addPoints();
+        }
+        else {
+            subtractPoints();
+        }
      }
 
     return <BootstrapCard className={selected ? "power-card-clicked" : "power-card"}>
